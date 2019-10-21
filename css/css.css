@@ -1,0 +1,402 @@
+.top {
+  margin-top: 20px;
+}
+.top #nav {
+  margin-top: -5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.top #nav img {
+  width: 45px;
+  height: 45px;
+}
+.top .search {
+  position: relative;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  height: 35px;
+  width: 262px;
+  margin-top: 0px;
+}
+.top .search input {
+  border: none;
+  padding-left: 10px;
+  width: 252px;
+  height: 33px;
+  border-radius: 5px;
+}
+.top .search .searchIcon {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.top .search span {
+  display: inline-block;
+  padding-right: 10px;
+}
+.top div .date {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.nav {
+  background: #43a4ff;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  display: none;
+}
+.wapNav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  padding-top: 30px;
+  overflow-y: auto;
+  display: none;
+  z-index: 999;
+}
+.wapNav .menu {
+  position: relative;
+}
+.wapNav .menu .close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.wapNav .menu ul li {
+  text-align: center;
+  line-height: 45px;
+}
+.wapNav .menu ul li a {
+  font-size: 18px;
+}
+.wapNav .menu ul li .navDown {
+  margin-left: 65px;
+}
+.wapNav .menu ul li .navDown li a {
+  font-size: 16px;
+}
+.banner {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  background: #477cc9;
+}
+.banner img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.firstModule {
+  margin-top: 32px;
+}
+.public {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+.public .title {
+  font-size: 18px;
+  color: #43a4ff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #43a4ff;
+}
+.public .more {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.public .more img {
+  width: 15px;
+  height: 15px;
+}
+.public .more em {
+  font-style: normal;
+}
+.ContentTitle {
+  font-size: 16px;
+}
+.wrapcontent li {
+  margin-bottom: 20px;
+}
+.wrapcontent li .jzimg {
+  margin-right: 10px;
+}
+.wrapcontent li div {
+  width: 68%;
+}
+.wrapcontent li div a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.wrapcontent li div a:hover {
+  color: #43a4ff;
+}
+.wrapcontent li div div.content {
+  width: 100%;
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wrapcontent li div div.content:hover {
+  color: #43a4ff;
+}
+.wrapcontent li div .view {
+  color: #43a4ff;
+}
+.infor ul li {
+  line-height: 2.2;
+}
+.infor ul li a {
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.infor ul li a:hover {
+  color: #43a4ff;
+  text-decoration: none;
+}
+.secondMoudle {
+  padding-left: 20px;
+  margin-top: 38px;
+}
+.secondMoudle .public {
+  padding-bottom: 0;
+}
+.secondMoudle .public span {
+  position: relative;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: none;
+  padding-right: 20px;
+  display: inline-block;
+  color: #666;
+}
+.secondMoudle .public span em {
+  font-style: normal;
+  padding-bottom: 10px;
+}
+.secondMoudle .public span .active {
+  border-bottom: 2px solid #43a4ff;
+  color: #43a4ff;
+}
+.secondMoudle .public span::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  border-right: 2px solid #666;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.secondMoudle .public span:last-child::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  border-right: 2px solid transparent;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.secondMoudle .public > em {
+  font-style: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.secondMoudle .public a i {
+  font-size: 16px;
+  font-style: normal;
+  color: #999;
+  margin-right: 5px;
+}
+.secondMoudle .box ul li {
+  line-height: 2.2;
+}
+.secondMoudle .box ul li a {
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.secondMoudle .box ul li a:hover {
+  color: #43a4ff;
+  text-decoration: none;
+}
+.link {
+  padding: 0 15px;
+  margin-top: 38px;
+}
+.link .links {
+  border: 1px solid #d8d8d8;
+  margin-top: 20px;
+  padding: 20px;
+}
+.link .links a {
+  font-size: 14px;
+}
+.link .links a:hover {
+  color: #43a4ff;
+  text-decoration: none;
+}
+.link .links em {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.footer {
+  margin-top: 38px;
+  background: #454545;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.footer div p {
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .col-md-5 {
+    width: 41.66666667% !important;
+  }
+  .col-md-7 {
+    width: 58.33333333% !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .wrapcontent li div {
+    width: 74%;
+  }
+  .container {
+    width: 1200px;
+  }
+  .secondMoudle {
+    padding: none;
+  }
+  .row {
+    transform: none !important;
+  }
+  #nav {
+    display: none;
+  }
+  .nav {
+    display: block;
+  }
+  .nav .menu > ul > li {
+    position: relative;
+    width: 9%;
+    float: left;
+    color: #fff;
+    text-align: center;
+  }
+  .nav .menu > ul > li > a {
+    color: #fff;
+    font-size: 18px;
+  }
+  .nav .menu > ul > li .navDown {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+  }
+  .nav .menu > ul > li .navDown li {
+    text-align: center;
+    white-space: nowrap;
+    height: 45px;
+    line-height: 45px;
+  }
+  .nav .menu > ul > li .navDown li a {
+    color: #000;
+    font-size: 16px;
+  }
+  .nav .menu > ul > li .navDown li a:hover {
+    color: #43a4ff;
+  }
+}
+#lanmu {
+  position: fixed;
+  right: -130px;
+  top: 20%;
+  background: #fff;
+  width: 130px;
+  text-align: center;
+}
+#lanmu .title {
+  width: 100%;
+  height: 52px;
+  background: #43a4ff;
+  font-size: 22px;
+  line-height: 52px;
+  color: #fff;
+}
+#lanmu ul {
+  padding: 0 10px;
+  border: 2px solid #d8d8d8;
+}
+#lanmu ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.2;
+  border-bottom: 1px dashed #d8d8d8;
+}
+#lanmu ul li a {
+  font-size: 16px;
+}
+#lanmu ul li:last-child {
+  border-bottom: none;
+}
+#lanmu .ewm {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: #43a4ff;
+  color: #fff;
+}
+#lanmu .ewm p {
+  margin-top: 5px;
+}
+#lanmu .tel {
+  text-align: left;
+  padding-left: 10px;
+  background: #43a4ff;
+  color: #fff;
+  padding-bottom: 10px;
+  border-top: 1px dashed #fff;
+  padding-top: 10px;
+}
+#lanmu .tel div {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+#lanmu .tel p {
+  font-size: 14px;
+}
+#qick {
+  position: fixed;
+  top: 20%;
+  right: 0;
+  cursor: pointer;
+}
